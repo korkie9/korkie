@@ -39,7 +39,7 @@ const Admin = () => {
           },
         )
       } catch (err) {
-        console.error(err.message)
+        window.alert('You do not have access to this page')
       }
       if (tokenRes.data) {
         try {
