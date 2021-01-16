@@ -1,0 +1,15 @@
+.korkie-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.nav-logo{
+    border-radius: 90px;
+}
+
+.color-nav{
+  background-color: black;
+}

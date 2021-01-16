@@ -1,0 +1,32 @@
+.Experience-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  padding: 5px;
+  color: lightcyan;
+  margin-bottom: 3rem;
+}
+
+.exp-con-para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.exp-con-para h3{
+  color: cyan;
+  font-family: ltc-bodoni-175;
+  margin-top: 2rem;
+}
+
+.exp-con-charts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}

@@ -1,0 +1,93 @@
+.About-con{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color:lightcyan;
+    flex-direction: column;
+}
+
+.text-con{
+    width: 75%;
+    padding-bottom: 40px;
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.back-story-text-con{
+    width: 90%;
+    padding-bottom: 40px;
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.imgandpara{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.half-flex{
+    flex: 1;
+}
+
+.bolandimg{
+    flex: 1;
+    width: 50%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+.trainimg{
+    width: 50%;
+    border-radius: 10%;
+    margin: 3%
+}
+
+.back-story-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 10%;
+
+}
+
+.dietryingimg{
+    flex: 1;
+    width: 50%;
+    border-radius: 90%;
+    margin: 3%;
+}
+
+.biscuitsimg{
+    flex: 1;
+    width: 50%;
+    border-radius: 80%;
+    margin: 3%;
+}
+
+.sub-heading{
+    font-family: ltc-bodoni-175; 
+    color: cyan;
+}
+
+.about-heading{
+    color: cyan;
+    font-family: ltc-bodoni-135;
+}
+
+@media(max-width: 900px){
+    .imgandpara{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  }

@@ -1,0 +1,37 @@
+.home-con{
+    z-index: 1;
+    margin: 5px;
+    font-family: ltc-bodoni-175;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-con-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: lightcyan;
+    margin: 10px;
+}
+
+.home-con-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+@media(max-width: 900px){
+    .home-con{
+        z-index: 1;
+        margin: 5px;
+        font-family: ltc-bodoni-175;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  .wallgapimg{
+    border-radius: 5px;
+  }

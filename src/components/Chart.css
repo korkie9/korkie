@@ -1,0 +1,31 @@
+.chart-con{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* width: 90vw; */
+}
+
+.bar-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* width: 45vw; */
+}
+
+@media(max-width: 900px){
+    .chart-con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bar-con {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        width: 100%;
+    }
+}
