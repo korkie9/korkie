@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>
+    <div className="main-banner-cont">
       <div className="banner">
         <h3>
           <strong>KORKIE</strong>
