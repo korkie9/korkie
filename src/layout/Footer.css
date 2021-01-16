@@ -1,12 +1,9 @@
 .banner {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
     text-emphasis: center;
     background-color: black;
     color: honeydew;
-    /* height: 200px; */
     margin: 5px;
 }
 
