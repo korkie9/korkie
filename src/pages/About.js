@@ -69,11 +69,11 @@ const About = () => {
               I attended Paul Roos Gymnasium, an institution I'm honored to have
               been a part of. I tried as far as possible to make the most of my
               time there. I'm grateful to have been part of the talented choir
-              and the chess team. Beyond that, I've tried my hand at rugby,
-              squash, debating, AdMath, 100m hurdles and played in the drumline
-              for two years. Though I didn't necessarily excel in each activity,
-              it was fun challenging myself and learning new things. I believe
-              every discipline has its own lessons to teach.
+              and the chess team. Beyond that, I had tried my hand at rugby,
+              squash, debating, AdMath, 100m hurdles and played in the drumline.
+              Though I didn't necessarily excel in each activity, it was fun
+              challenging myself and learning new things. I believe every
+              discipline has its own lessons to teach.
             </Typography>
           </Rotate>
         </div>

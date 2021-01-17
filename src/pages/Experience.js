@@ -59,7 +59,7 @@ const Experience = () => {
           </h3>
           <Typography paragraph>
             Heroku has quickly become my favourite hosting platform for its ease
-            of use and its add-ons. I still believe Firebase is great though
+            of use and its add-ons. I still believe Firebase is great though,
             because it is so dynamic. I've dabbled a bit with AWS but I'd like
             to learn it in depth going forward
           </Typography>

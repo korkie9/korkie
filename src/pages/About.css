@@ -84,6 +84,14 @@
 }
 
 @media(max-width: 900px){
+    .back-story-para{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        margin: 10%;
+        width: 100vw;
+    }
     .imgandpara{
         display: flex;
         flex-direction: column;
@@ -99,19 +107,19 @@
     }
     
     .trainimg{
-        width: 50vw;
+        width: 50%;
         border-radius: 10%;
         margin: 3%
     }
     .dietryingimg{
         flex: 1;
-        width: 60vw;
+        width: 50%;
         border-radius: 90%;
         margin: 3%;
     }
     .biscuitsimg{
         flex: 1;
-        width: 50vw;
+        width: 50%;
         border-radius: 80%;
         margin: 3%;
     }
