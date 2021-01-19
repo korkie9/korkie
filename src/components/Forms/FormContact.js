@@ -12,10 +12,12 @@ const FormContact = ({ submitForm }) => {
     validate,
   )
 
-  const onSubmit = async () => {
+  const onSubmit = async (e) => {
     try{
-      await axios.post(process.env.REACT_APP_MESSAGES, values)
+      console.log(errors)
+      //await axios.post(process.env.REACT_APP_MESSAGES, e)
     } catch(err){
+      console.log(err)
     }
   }
 

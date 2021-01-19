@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Typography from '@material-ui/core/Typography'
 import './About.css'
 import boland from '../environment/boland.jpg'
@@ -10,6 +10,10 @@ import Zoom from 'react-reveal/Zoom'
 import Rotate from 'react-reveal/Rotate'
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+  }, [])
+
   return (
     <div className="About-con" id="About">
       <div className="text-con">

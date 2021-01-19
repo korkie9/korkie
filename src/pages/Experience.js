@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Experience.css'
 import Chart, { Languages, Hosting, Database } from '../components/Chart.js'
 import Typography from '@material-ui/core/Typography'
 
 const Experience = () => {
+  
+  useEffect(() => {
+    window. scrollTo({top: 0, left: 0, behavior: 'smooth' });
+  }, [])
   return (
     <div className="Experience-con">
       <div className="exp-con-para">
@@ -43,7 +47,7 @@ const Experience = () => {
           </Typography>
           <Typography paragraph>
             I learned C# as part of an internship I did with BitCube. I love it
-            primarily because for its syntactic resemblance to Java.
+            primarily because of its syntactic resemblance to Java.
           </Typography>
           <Typography paragraph>
             I try as far as possible to remain 'language agnostic' and learn
