@@ -13,8 +13,12 @@ const ContactForm = (props) => {
 
   const onSubmit = async (data) => {
     try{
+        console.log(data)
         const msg = await axios.post(process.env.REACT_APP_MESSAGES, data)
-        if(msg) props.submitForm()
+        if(msg) {
+          props.submitForm()
+          console.log(data)
+        } 
     } catch(err){
         setFailed('Oops! Something went wrong')
     }
