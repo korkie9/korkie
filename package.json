@@ -26,6 +26,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "homepage": "https://korkie9.github.io/korkie",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
